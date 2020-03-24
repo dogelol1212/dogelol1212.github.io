@@ -1,0 +1,514 @@
+<html lang="ru">
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge"> 
+  <title>Интернет-магазин цифровых товаров [VIP]</title> 
+  <meta name="description" content="Описание"> 
+  <meta name="keywords" content="Ключевые слова"> 
+  <!-- Icon site --> 
+  <link href="./templates/0/images/icon.ico" rel="shortcut icon" type="image/x-icon"> 
+  <!-- --> 
+  <!-- Styles --> 
+  <link rel="stylesheet" href="./templates/0/styles/reset.css"> 
+  <!-- Reset styles --> 
+  <link rel="stylesheet" href="./templates/0/styles/styles.css"> 
+  <!-- Global styles --> 
+  <!-- Include jquery --> 
+  <link rel="stylesheet" type="text/css" href="./templates/0//css/box.css"> 
+  <link href="./templates/0//css/prettyPhoto.css" media="screen" rel="stylesheet" type="text/css"> 
+  <link rel="stylesheet" href="./templates/0//css/styles.css"> 
+  <link rel="stylesheet" href="./templates/0//steam.css"> 
+  <!-- Owl Carousel Assets --> 
+  <link href="./templates/0//owl-carousel/owl.carousel.css" rel="stylesheet"> 
+  <link href="./templates/0//owl-carousel/owl.theme.css" rel="stylesheet"> 
+  <!-- owl --> 
+  <style>
+    #owl-demo .item{
+        margin: 3px;
+    }
+    #owl-demo .item img{
+        display: block;
+        width: 100%;
+        height: 97px;
+    }
+    </style> 
+  <script type="text/javascript">
+function show_content() {
+$.get("last_sale.php", "", function (data){
+$('#last_sale').html(data); }); }
+
+setInterval(function() {
+$.get("last_sale.php", "", function (data){
+$('#last_sale').html(data); }); }, 60000);
+
+show_content();
+</script> 
+  <link rel="preload" href="https://adservice.google.ru/adsid/integrator.js?domain=demo7.scriptberry.ru" as="script"> 
+  <link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=demo7.scriptberry.ru" as="script"> 
+ </head> 
+ <body> 
+  <header class="common_block top_header"> 
+   <div class="block_wrapper header_content clear"> 
+    <div class="logo relative">
+     <a href="/" class="full_link"></a>
+    </div> 
+    <div class="menu"> 
+     <ul class="menu_content"> 
+      <li><a href="/">Главная</a></li> 
+      <li><a href="" target="_blank">Мы вконтакте</a></li> 
+      <li><a href="/responses.php">Отзывы о нас</a></li> 
+      <li><a href="/payments.php">Как оплатить?</a></li> 
+     </ul> 
+    </div> 
+    <div class="sells_history button relative">
+     <a href="http://www.oplata.info" target="_blank" class="full_link"></a>
+     <div class="icon"></div>
+     <div class="caption">
+      Мои покупки
+     </div>
+    </div> 
+   </div> 
+  </header> 
+  <div class="common_block best_sells"> 
+   <div class="block_wrapper sells_content clear"> 
+    <div class="bottmoControls"> 
+     <div class="searchBar"> 
+      <form action="/search.php" method="GET"> 
+       <input id="searchBar__input" type="text" class="searchBar__input" placeholder="Поиск среди товаров в наличии... " name="q"> 
+       <input id="searchSend" type="submit" class="searchBar__inputSubmit" value="Начать поиск"> 
+      </form> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="common_block content_games"> 
+   <div class="block_wrapper games_block"> 
+    <div class="category clear"> 
+     <div class="category_content"> 
+      <div class="block_category relative active"> 
+       <a href="#" title="" onclick="SubCat('0', 'http://demo7.scriptberry.ru/listing.php?category_id=79695');">Аккаунты Steam </a> 
+      </div> 
+      <div class="block_category relative active"> 
+       <a href="#" title="" onclick="SubCat('0', 'http://demo7.scriptberry.ru/listing.php?category_id=79696');">Аккаунты Origin </a> 
+      </div> 
+      <div class="block_category relative active"> 
+       <a href="#" title="" onclick="SubCat('0', 'http://demo7.scriptberry.ru/listing.php?category_id=79697');">Аккаунты Uplay </a> 
+      </div> 
+      <div class="block_category relative active"> 
+       <a href="#" title="" onclick="SubCat('0', 'http://demo7.scriptberry.ru/listing.php?category_id=79705');">Аккаунты Battle.net </a> 
+      </div> 
+      <div class="block_category relative active"> 
+       <a href="#" title="" onclick="SubCat('0', 'http://demo7.scriptberry.ru/listing.php?category_id=79699');">Steam Random </a> 
+      </div> 
+      <div class="block_category relative active"> 
+       <a href="#" title="" onclick="SubCat('0', 'http://demo7.scriptberry.ru/listing.php?category_id=79700');">Origin Random </a> 
+      </div> 
+      <div class="block_category relative active"> 
+       <a href="#" title="" onclick="SubCat('0', 'http://demo7.scriptberry.ru/listing.php?category_id=79701');">Uplay Random </a> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="games_blocks_content clear">
+     <div class="digiseller-category-blocks"> 
+     </div> 
+     <div class="digiseller-both"></div> 
+     <div class="games_buy relative"> 
+      <a href="./goods.php?id=2314577" class="full_link"></a> 
+      <div class="game_icon relative"> 
+       <a href="./goods.php?id=2314577"><img src="https://graph.digiseller.ru/img.ashx?id_d=2314577&amp;" alt="Случайный аккаунт Origin | Подарок + бонус" title="Случайный аккаунт Origin | Подарок + бонус"></a> 
+       <div class="image_mask_hover"></div> 
+      </div> 
+      <div class="game_name relative"> 
+       <div class="name_content">
+        <a href="./goods.php?id=2314577">Случайный аккаунт Origin | Подарок + бонус</a>
+       </div> 
+       <div class="buy_icon"></div> 
+      </div> 
+      <div class="price">
+       <a href="./goods.php?id=2314577">20 RUR</a>
+      </div> 
+      <!--div class = 'discount'>10%</div--> 
+     </div> 
+     <div class="games_buy relative"> 
+      <a href="./goods.php?id=2372921" class="full_link"></a> 
+      <div class="game_icon relative"> 
+       <a href="./goods.php?id=2372921"><img src="https://graph.digiseller.ru/img.ashx?id_d=2372921&amp;" alt="Аккаунт FIFA 18 [Origin]  + подарок" title="Аккаунт FIFA 18 [Origin]  + подарок"></a> 
+       <div class="image_mask_hover"></div> 
+      </div> 
+      <div class="game_name relative"> 
+       <div class="name_content">
+        <a href="./goods.php?id=2372921">Аккаунт FIFA 18 [Origin] + подарок</a>
+       </div> 
+       <div class="buy_icon"></div> 
+      </div> 
+      <div class="price">
+       <a href="./goods.php?id=2372921">70 RUR</a>
+      </div> 
+      <!--div class = 'discount'>10%</div--> 
+     </div> 
+     <div class="games_buy relative"> 
+      <a href="./goods.php?id=2314254" class="full_link"></a> 
+      <div class="game_icon relative"> 
+       <a href="./goods.php?id=2314254"><img src="https://graph.digiseller.ru/img.ashx?id_d=2314254&amp;" alt="Аккаунт Battlefield 4 | Подарок + бонус" title="Аккаунт Battlefield 4 | Подарок + бонус"></a> 
+       <div class="image_mask_hover"></div> 
+      </div> 
+      <div class="game_name relative"> 
+       <div class="name_content">
+        <a href="./goods.php?id=2314254">Аккаунт Battlefield 4 | Подарок + бонус</a>
+       </div> 
+       <div class="buy_icon"></div> 
+      </div> 
+      <div class="price">
+       <a href="./goods.php?id=2314254">39 RUR</a>
+      </div> 
+      <!--div class = 'discount'>10%</div--> 
+     </div> 
+     <div class="games_buy relative"> 
+      <a href="./goods.php?id=2316132" class="full_link"></a> 
+      <div class="game_icon relative"> 
+       <a href="./goods.php?id=2316132"><img src="https://graph.digiseller.ru/img.ashx?id_d=2316132&amp;" alt="Аккаунт Battlefield Hardline + подарок" title="Аккаунт Battlefield Hardline + подарок"></a> 
+       <div class="image_mask_hover"></div> 
+      </div> 
+      <div class="game_name relative"> 
+       <div class="name_content">
+        <a href="./goods.php?id=2316132">Аккаунт Battlefield Hardline + подарок</a>
+       </div> 
+       <div class="buy_icon"></div> 
+      </div> 
+      <div class="price">
+       <a href="./goods.php?id=2316132">19 RUR</a>
+      </div> 
+      <!--div class = 'discount'>10%</div--> 
+     </div> 
+     <div class="clear"></div> 
+     <div class="games_buy relative"> 
+      <a href="./goods.php?id=2314259" class="full_link"></a> 
+      <div class="game_icon relative"> 
+       <a href="./goods.php?id=2314259"><img src="https://graph.digiseller.ru/img.ashx?id_d=2314259&amp;" alt="Аккаунт FIFA 17 | Подарок + бонус" title="Аккаунт FIFA 17 | Подарок + бонус"></a> 
+       <div class="image_mask_hover"></div> 
+      </div> 
+      <div class="game_name relative"> 
+       <div class="name_content">
+        <a href="./goods.php?id=2314259">Аккаунт FIFA 17 | Подарок + бонус</a>
+       </div> 
+       <div class="buy_icon"></div> 
+      </div> 
+      <div class="price">
+       <a href="./goods.php?id=2314259">49 RUR</a>
+      </div> 
+      <!--div class = 'discount'>10%</div--> 
+     </div> 
+     <div class="games_buy relative"> 
+      <a href="./goods.php?id=2314579" class="full_link"></a> 
+      <div class="game_icon relative"> 
+       <a href="./goods.php?id=2314579"><img src="https://graph.digiseller.ru/img.ashx?id_d=2314579&amp;" alt="Аккаунт FIFA 16 | Подарок + бонус" title="Аккаунт FIFA 16 | Подарок + бонус"></a> 
+       <div class="image_mask_hover"></div> 
+      </div> 
+      <div class="game_name relative"> 
+       <div class="name_content">
+        <a href="./goods.php?id=2314579">Аккаунт FIFA 16 | Подарок + бонус</a>
+       </div> 
+       <div class="buy_icon"></div> 
+      </div> 
+      <div class="price">
+       <a href="./goods.php?id=2314579">29 RUR</a>
+      </div> 
+      <!--div class = 'discount'>10%</div--> 
+     </div> 
+     <div class="games_buy relative"> 
+      <a href="./goods.php?id=2239110" class="full_link"></a> 
+      <div class="game_icon relative"> 
+       <a href="./goods.php?id=2239110"><img src="https://graph.digiseller.ru/img.ashx?id_d=2239110&amp;" alt="Grand Theft Auto V (Social club аккаунт) + Гарантия" title="Grand Theft Auto V (Social club аккаунт) + Гарантия"></a> 
+       <div class="image_mask_hover"></div> 
+      </div> 
+      <div class="game_name relative"> 
+       <div class="name_content">
+        <a href="./goods.php?id=2239110">Grand Theft Auto V (Social club аккаунт) + Гарантия</a>
+       </div> 
+       <div class="buy_icon"></div> 
+      </div> 
+      <div class="price">
+       <a href="./goods.php?id=2239110">199 RUR</a>
+      </div> 
+      <!--div class = 'discount'>10%</div--> 
+     </div> 
+     <div class="games_buy relative"> 
+      <a href="./goods.php?id=2382093" class="full_link"></a> 
+      <div class="game_icon relative"> 
+       <a href="./goods.php?id=2382093"><img src="https://graph.digiseller.ru/img.ashx?id_d=2382093&amp;" alt="Аккаунт Star Wars Battlefront II [Origin] + подарок" title="Аккаунт Star Wars Battlefront II [Origin] + подарок"></a> 
+       <div class="image_mask_hover"></div> 
+      </div> 
+      <div class="game_name relative"> 
+       <div class="name_content">
+        <a href="./goods.php?id=2382093">Аккаунт Star Wars Battlefront II [Origin] + подарок</a>
+       </div> 
+       <div class="buy_icon"></div> 
+      </div> 
+      <div class="price">
+       <a href="./goods.php?id=2382093">110 RUR</a>
+      </div> 
+      <!--div class = 'discount'>10%</div--> 
+     </div> 
+     <div class="clear"></div> 
+     <div class="games_buy relative"> 
+      <a href="./goods.php?id=2314268" class="full_link"></a> 
+      <div class="game_icon relative"> 
+       <a href="./goods.php?id=2314268"><img src="https://graph.digiseller.ru/img.ashx?id_d=2314268&amp;" alt="Аккаунт Star Wars Battlefront | Подарок + бонус" title="Аккаунт Star Wars Battlefront | Подарок + бонус"></a> 
+       <div class="image_mask_hover"></div> 
+      </div> 
+      <div class="game_name relative"> 
+       <div class="name_content">
+        <a href="./goods.php?id=2314268">Аккаунт Star Wars Battlefront | Подарок + бонус</a>
+       </div> 
+       <div class="buy_icon"></div> 
+      </div> 
+      <div class="price">
+       <a href="./goods.php?id=2314268">25 RUR</a>
+      </div> 
+      <!--div class = 'discount'>10%</div--> 
+     </div> 
+     <div class="games_buy relative"> 
+      <a href="./goods.php?id=2314255" class="full_link"></a> 
+      <div class="game_icon relative"> 
+       <a href="./goods.php?id=2314255"><img src="https://graph.digiseller.ru/img.ashx?id_d=2314255&amp;" alt="Аккаунт Battlefield 1 | Подарок + бонус" title="Аккаунт Battlefield 1 | Подарок + бонус"></a> 
+       <div class="image_mask_hover"></div> 
+      </div> 
+      <div class="game_name relative"> 
+       <div class="name_content">
+        <a href="./goods.php?id=2314255">Аккаунт Battlefield 1 | Подарок + бонус</a>
+       </div> 
+       <div class="buy_icon"></div> 
+      </div> 
+      <div class="price">
+       <a href="./goods.php?id=2314255">50 RUR</a>
+      </div> 
+      <!--div class = 'discount'>10%</div--> 
+     </div> 
+     <div class="games_buy relative"> 
+      <a href="./goods.php?id=2325407" class="full_link"></a> 
+      <div class="game_icon relative"> 
+       <a href="./goods.php?id=2325407"><img src="https://graph.digiseller.ru/img.ashx?id_d=2325407&amp;" alt="Аккаунт Tom Clancys Ghost Recon Wildlands" title="Аккаунт Tom Clancys Ghost Recon Wildlands"></a> 
+       <div class="image_mask_hover"></div> 
+      </div> 
+      <div class="game_name relative"> 
+       <div class="name_content">
+        <a href="./goods.php?id=2325407">Аккаунт Tom Clancys Ghost Recon Wildlands</a>
+       </div> 
+       <div class="buy_icon"></div> 
+      </div> 
+      <div class="price">
+       <a href="./goods.php?id=2325407">40 RUR</a>
+      </div> 
+      <!--div class = 'discount'>10%</div--> 
+     </div> 
+     <div class="games_buy relative"> 
+      <a href="./goods.php?id=2288719" class="full_link"></a> 
+      <div class="game_icon relative"> 
+       <a href="./goods.php?id=2288719"><img src="https://graph.digiseller.ru/img.ashx?id_d=2288719&amp;" alt="Tom Clancy's Ghost Recon: Wildlands | ГАРАНТИЯ" title="Tom Clancy's Ghost Recon: Wildlands | ГАРАНТИЯ"></a> 
+       <div class="image_mask_hover"></div> 
+      </div> 
+      <div class="game_name relative"> 
+       <div class="name_content">
+        <a href="./goods.php?id=2288719">Tom Clancy's Ghost Recon: Wildlands | ГАРАНТИЯ</a>
+       </div> 
+       <div class="buy_icon"></div> 
+      </div> 
+      <div class="price">
+       <a href="./goods.php?id=2288719">18 RUR</a>
+      </div> 
+      <!--div class = 'discount'>10%</div--> 
+     </div> 
+     <div class="clear"></div> 
+     <div class="games_buy relative"> 
+      <a href="./goods.php?id=2316135" class="full_link"></a> 
+      <div class="game_icon relative"> 
+       <a href="./goods.php?id=2316135"><img src="https://graph.digiseller.ru/img.ashx?id_d=2316135&amp;" alt="Аккаунт Titanfall 2 | Подарок + бонус" title="Аккаунт Titanfall 2 | Подарок + бонус"></a> 
+       <div class="image_mask_hover"></div> 
+      </div> 
+      <div class="game_name relative"> 
+       <div class="name_content">
+        <a href="./goods.php?id=2316135">Аккаунт Titanfall 2 | Подарок + бонус</a>
+       </div> 
+       <div class="buy_icon"></div> 
+      </div> 
+      <div class="price">
+       <a href="./goods.php?id=2316135">40 RUR</a>
+      </div> 
+      <!--div class = 'discount'>10%</div--> 
+     </div> 
+     <div class="games_buy relative"> 
+      <a href="./goods.php?id=2314257" class="full_link"></a> 
+      <div class="game_icon relative"> 
+       <a href="./goods.php?id=2314257"><img src="https://graph.digiseller.ru/img.ashx?id_d=2314257&amp;" alt="Аккаунт Mass Effect: Andromeda | Подарок + бонус" title="Аккаунт Mass Effect: Andromeda | Подарок + бонус"></a> 
+       <div class="image_mask_hover"></div> 
+      </div> 
+      <div class="game_name relative"> 
+       <div class="name_content">
+        <a href="./goods.php?id=2314257">Аккаунт Mass Effect: Andromeda | Подарок + бонус</a>
+       </div> 
+       <div class="buy_icon"></div> 
+      </div> 
+      <div class="price">
+       <a href="./goods.php?id=2314257">20 RUR</a>
+      </div> 
+      <!--div class = 'discount'>10%</div--> 
+     </div> 
+     <div class="games_buy relative"> 
+      <a href="./goods.php?id=2325397" class="full_link"></a> 
+      <div class="game_icon relative"> 
+       <a href="./goods.php?id=2325397"><img src="https://graph.digiseller.ru/img.ashx?id_d=2325397&amp;" alt="Mass Effect 3 + подарок" title="Mass Effect 3 + подарок"></a> 
+       <div class="image_mask_hover"></div> 
+      </div> 
+      <div class="game_name relative"> 
+       <div class="name_content">
+        <a href="./goods.php?id=2325397">Mass Effect 3 + подарок</a>
+       </div> 
+       <div class="buy_icon"></div> 
+      </div> 
+      <div class="price">
+       <a href="./goods.php?id=2325397">20 RUR</a>
+      </div> 
+      <!--div class = 'discount'>10%</div--> 
+     </div> 
+     <div class="games_buy relative"> 
+      <a href="./goods.php?id=2316139" class="full_link"></a> 
+      <div class="game_icon relative"> 
+       <a href="./goods.php?id=2316139"><img src="https://graph.digiseller.ru/img.ashx?id_d=2316139&amp;" alt="Аккаунт Titanfall 2 Deluxe Edition | Подарок + бонус" title="Аккаунт Titanfall 2 Deluxe Edition | Подарок + бонус"></a> 
+       <div class="image_mask_hover"></div> 
+      </div> 
+      <div class="game_name relative"> 
+       <div class="name_content">
+        <a href="./goods.php?id=2316139">Аккаунт Titanfall 2 Deluxe Edition | Подарок + бонус</a>
+       </div> 
+       <div class="buy_icon"></div> 
+      </div> 
+      <div class="price">
+       <a href="./goods.php?id=2316139">50 RUR</a>
+      </div> 
+      <!--div class = 'discount'>10%</div--> 
+     </div> 
+     <div class="clear"></div> 
+     <div class="games_buy relative"> 
+      <a href="./goods.php?id=2325389" class="full_link"></a> 
+      <div class="game_icon relative"> 
+       <a href="./goods.php?id=2325389"><img src="https://graph.digiseller.ru/img.ashx?id_d=2325389&amp;" alt="Аккаунт Battlefield Hardline Digital Deluxe" title="Аккаунт Battlefield Hardline Digital Deluxe"></a> 
+       <div class="image_mask_hover"></div> 
+      </div> 
+      <div class="game_name relative"> 
+       <div class="name_content">
+        <a href="./goods.php?id=2325389">Аккаунт Battlefield Hardline Digital Deluxe</a>
+       </div> 
+       <div class="buy_icon"></div> 
+      </div> 
+      <div class="price">
+       <a href="./goods.php?id=2325389">20 RUR</a>
+      </div> 
+      <!--div class = 'discount'>10%</div--> 
+     </div> 
+     <div class="games_buy relative"> 
+      <a href="./goods.php?id=2325398" class="full_link"></a> 
+      <div class="game_icon relative"> 
+       <a href="./goods.php?id=2325398"><img src="https://graph.digiseller.ru/img.ashx?id_d=2325398&amp;" alt="Аккаунт Mirror's Edge Catalyst" title="Аккаунт Mirror's Edge Catalyst"></a> 
+       <div class="image_mask_hover"></div> 
+      </div> 
+      <div class="game_name relative"> 
+       <div class="name_content">
+        <a href="./goods.php?id=2325398">Аккаунт Mirror's Edge Catalyst</a>
+       </div> 
+       <div class="buy_icon"></div> 
+      </div> 
+      <div class="price">
+       <a href="./goods.php?id=2325398">39 RUR</a>
+      </div> 
+      <!--div class = 'discount'>10%</div--> 
+     </div> 
+    </div> 
+    <!-- end.Список товаров --> 
+   </div> 
+  </div> 
+  <footer class="footer common_block"> 
+   <div class="block_wrapper"> 
+    <div class="site_info clear"> 
+     <div class="description"> 
+      <img src="./templates/0/images/description.png" align="left"> 
+      <span>На сегодняшний день Steam является лучшей игровой платформой. В ней вы можете играть в убойные игры, общаться с друзьями, создавать и дарить подарки. Впрочем, не все так гладко, ведь для того, чтобы использовать все возможности платформы, следует заблаговременно купить игру steam. Наш магазин steam ключей – это гарантия безопасной покупки ключей активации к самым популярным играм. Нас выбирают тысячи пользователей игровых платформ. </span> 
+     </div> 
+     <div class="line_v"></div> 
+     <div class="soc clear"> 
+      <div class="soc_icons clear"> 
+       <div class="soc_icon facebook relative">
+        <a href="#" class="full_link"></a>
+       </div> 
+       <div class="soc_icon twitter relative">
+        <a href="#" class="full_link"></a>
+       </div> 
+       <div class="soc_icon in relative">
+        <a href="#" class="full_link"></a>
+       </div> 
+       <div class="soc_icon vk relative">
+        <a href="#" class="full_link"></a>
+       </div> 
+       <div class="soc_icon ok relative">
+        <a href="#" class="full_link"></a>
+       </div> 
+       <div class="soc_icon youtube relative">
+        <a href="#" class="full_link"></a>
+       </div> 
+       <div class="soc_icon instagramm relative">
+        <a href="#" class="full_link"></a>
+       </div> 
+      </div> 
+      <div class="banners clear"> 
+       <div class="banner relative">
+        <a href="#" class="full_link"></a> 
+        <img src="./templates/0/images/webmoney.png"> 
+        <div class="usual_banner"></div> 
+       </div> 
+       <div class="banner relative">
+        <a href="#" class="full_link"></a> 
+        <img src="./templates/0/images/webmoney.png"> 
+        <div class="usual_banner"></div> 
+       </div> 
+       <div class="banner relative">
+        <a href="#" class="full_link"></a> 
+        <img src="./templates/0/images/webmoney.png"> 
+        <div class="usual_banner"></div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </footer> 
+  <footer class="site_copy common_block"> 
+   <div class="block_wrapper clear"> 
+    <div class="cop">
+     <b> © 2015 - 2018 SCRIPTBERRY.RU</b>
+    </div> 
+    <div class="author relative">
+     <a href="https://scriptberry.ru/" target="_blank"></a>
+    </div> 
+   </div> 
+  </footer> 
+  <!--	<form action="search.php" method="get" class="search-form">
+							<input type="text" name="q" id="search_input active" placeholder="Поиск...">
+							<button><i class="fa fa-search"></i></button>
+						</form> --> 
+  <script type="text/javascript">
+		$(document).ready(function(){
+		$("a[rel^='prettyPhoto']").prettyPhoto({opacity:0.2, deeplinking: false, show_title:false, animation_speed: 'fast',social_tools: '',theme: 'light_square',gallery_markup: ''});});
+	</script> 
+  <script>
+    $(document).ready(function() {
+      $("#owl-demo").owlCarousel({
+        autoPlay: 3000,
+        items : 4,
+        itemsDesktop : [1199,3],
+        itemsDesktopSmall : [979,3]
+      });
+
+    });
+    </script> 
+ </body>
+</html>
